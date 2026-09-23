@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="10" fill="#482F6E"/>
+  <!-- Red car roofline contour -->
+  <path d="M 8 24 C 14 16, 26 10, 36 10 C 46 10, 54 14, 58 24 C 52 20, 44 18, 36 18 C 26 18, 16 21, 8 24 Z" fill="#C8324C"/>
+  <!-- H letter in white -->
+  <path d="M 20 25 v 26 M 44 25 v 26 M 20 38 h 24" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="square"/>
+</svg>

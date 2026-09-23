@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F9F8F6"/>
+      <stop offset="100%" stop-color="#ECE9E2"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D92847"/>
+      <stop offset="100%" stop-color="#C8324C"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#553784"/>
+      <stop offset="100%" stop-color="#3D2460"/>
+    </linearGradient>
+    <filter id="subtleShadow" x="-5%" y="-10%" width="110%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#1B1822" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="600" fill="url(#bgGrad)"/>
+  <rect x="18" y="18" width="1564" height="564" rx="12" fill="none" stroke="#E2DFD6" stroke-width="3"/>
+  <rect x="26" y="26" width="1548" height="548" rx="8" fill="none" stroke="#C8324C" stroke-width="1.5" opacity="0.4"/>
+
+  <g transform="translate(800, 52)" text-anchor="middle">
+    <rect x="-170" y="-16" width="340" height="32" rx="16" fill="#F3EEFA" stroke="#D7C9EB" stroke-width="1.5"/>
+    <text y="5" font-family="'Barlow', sans-serif" font-size="12" font-weight="700" fill="#482F6E" letter-spacing="3">PREMIUM MULTI-BRAND WORKSHOP</text>
+  </g>
+
+  <g transform="translate(800, 110)" filter="url(#subtleShadow)">
+    <path d="M -440,75 C -360,20 -200,-35 0,-38 C 200,-35 370,18 450,75 C 410,50 330,22 190,-10 C 10,-32 -180,-30 -330,15 C -390,32 -420,55 -440,75 Z" fill="url(#redGrad)"/>
+    <path d="M 120,6 C 240,8 360,32 460,78 C 420,68 340,54 220,44 C 150,38 120,24 120,6 Z" fill="url(#purpleGrad)"/>
+    <path d="M -430,70 C -380,48 -310,25 -210,12 C -260,28 -340,50 -400,82 Z" fill="url(#purpleGrad)" opacity="0.7"/>
+
+    <g transform="translate(0, 155)">
+      <text font-family="'Barlow Condensed', 'Arial Black', sans-serif" font-size="152" font-weight="900" font-style="italic" fill="url(#purpleGrad)" letter-spacing="8" text-anchor="middle">
+        HINGLAJ
+      </text>
+    </g>
+
+    <g transform="translate(0, 230)">
+      <g transform="translate(-250, -10)">
+        <line x1="-150" y1="-8" x2="0" y2="-8" stroke="#1B1822" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="-165" cy="-8" r="2.5" fill="#1B1822"/>
+        <circle cx="-178" cy="-8" r="2" fill="#1B1822"/>
+        <line x1="-130" y1="8" x2="0" y2="8" stroke="#C8324C" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="-145" cy="8" r="2.5" fill="#C8324C"/>
+        <circle cx="-158" cy="8" r="2" fill="#C8324C"/>
+      </g>
+      <text font-family="'Barlow Condensed', 'Arial Black', sans-serif" font-size="64" font-weight="900" font-style="italic" fill="url(#redGrad)" letter-spacing="12" text-anchor="middle">
+        AUTO CARE
+      </text>
+      <g transform="translate(250, -10)">
+        <line x1="0" y1="-8" x2="150" y2="-8" stroke="#1B1822" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="165" cy="-8" r="2.5" fill="#1B1822"/>
+        <circle cx="178" cy="-8" r="2" fill="#1B1822"/>
+        <line x1="0" y1="8" x2="130" y2="8" stroke="#C8324C" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="145" cy="8" r="2.5" fill="#C8324C"/>
+        <circle cx="158" cy="8" r="2" fill="#C8324C"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(800, 475)">
+    <rect x="-680" y="-32" width="1360" height="46" rx="23" fill="#FFFFFF" stroke="#E2DFD6" stroke-width="1.5"/>
+    <g transform="translate(-500, -5)" text-anchor="middle">
+      <circle cx="-90" cy="-4" r="5" fill="#C8324C"/>
+      <text font-family="'Barlow', sans-serif" font-size="14" font-weight="700" fill="#1B1822" letter-spacing="1">PERIODIC SERVICING</text>
+    </g>
+    <g transform="translate(-170, -5)" text-anchor="middle">
+      <circle cx="-95" cy="-4" r="5" fill="#482F6E"/>
+      <text font-family="'Barlow', sans-serif" font-size="14" font-weight="700" fill="#1B1822" letter-spacing="1">OBD-II DIAGNOSTICS</text>
+    </g>
+    <g transform="translate(160, -5)" text-anchor="middle">
+      <circle cx="-90" cy="-4" r="5" fill="#C8324C"/>
+      <text font-family="'Barlow', sans-serif" font-size="14" font-weight="700" fill="#1B1822" letter-spacing="1">BRAKES &amp; SUSPENSION</text>
+    </g>
+    <g transform="translate(480, -5)" text-anchor="middle">
+      <circle cx="-75" cy="-4" r="5" fill="#482F6E"/>
+      <text font-family="'Barlow', sans-serif" font-size="14" font-weight="700" fill="#1B1822" letter-spacing="1">AC &amp; ELECTRICAL</text>
+    </g>
+  </g>
+
+  <g transform="translate(800, 550)" text-anchor="middle">
+    <text font-family="'Barlow', sans-serif" font-size="16" font-weight="600" fill="#666070" letter-spacing="1">
+      Aashirwad Complex, Chanakyapuri Road, Ahmedabad  |  Phone &amp; WhatsApp: +91 94260 24517
+    </text>
+  </g>
+</svg>

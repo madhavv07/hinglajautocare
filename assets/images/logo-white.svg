@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 180" width="100%" height="100%">
+  <!-- Car Silhouette: Upper Roofline Curve in Red -->
+  <path d="M 45 68 C 75 40, 145 12, 245 10 C 335 8, 415 24, 455 68 C 420 52, 380 44, 335 40 C 295 38, 235 40, 165 48 C 120 54, 75 62, 45 68 Z" fill="#FF4D6D" />
+  
+  <!-- Car Silhouette: Lower Tail Accent Curve in Deep Lavender -->
+  <path d="M 305 52 C 350 48, 400 52, 440 68 C 415 62, 380 58, 335 56 C 322 55, 312 53, 305 52 Z" fill="#9D85C5" />
+  
+  <!-- HINGLAJ Wordmark (White on dark) -->
+  <text x="250" y="118" font-family="'Barlow Condensed', 'Arial Black', sans-serif" font-weight="900" font-style="italic" font-size="76" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">HINGLAJ</text>
+  
+  <!-- Speed Lines Left -->
+  <line x1="42" y1="152" x2="135" y2="152" stroke="#8C95A3" stroke-width="2.5" />
+  <line x1="42" y1="160" x2="135" y2="160" stroke="#8C95A3" stroke-width="2.5" />
+  <circle cx="34" cy="152" r="2.2" fill="#8C95A3" />
+  <circle cx="26" cy="152" r="1.6" fill="#8C95A3" />
+  <circle cx="34" cy="160" r="2.2" fill="#8C95A3" />
+  <circle cx="26" cy="160" r="1.6" fill="#8C95A3" />
+  
+  <!-- AUTO CARE Text in Red -->
+  <text x="250" y="162" font-family="'Barlow Condensed', 'Arial Black', sans-serif" font-weight="800" font-style="italic" font-size="33" fill="#FF4D6D" text-anchor="middle" letter-spacing="3">AUTO CARE</text>
+  
+  <!-- Speed Lines Right -->
+  <line x1="365" y1="152" x2="458" y2="152" stroke="#8C95A3" stroke-width="2.5" />
+  <line x1="365" y1="160" x2="458" y2="160" stroke="#8C95A3" stroke-width="2.5" />
+  <circle cx="466" cy="152" r="2.2" fill="#8C95A3" />
+  <circle cx="474" cy="152" r="1.6" fill="#8C95A3" />
+  <circle cx="466" cy="160" r="2.2" fill="#8C95A3" />
+  <circle cx="474" cy="160" r="1.6" fill="#8C95A3" />
+</svg>
