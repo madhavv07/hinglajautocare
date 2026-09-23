@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const img = item.querySelector('img');
         const badge = item.querySelector('.gallery-overlay-badge');
         if (img) {
-          lightboxImg.src = img.src;
+          lightboxImg.src = img.currentSrc || img.src;
           lightboxImg.alt = img.alt || 'Hinglaj Auto Care Workshop Photo';
           if (lightboxCaption && badge) {
             lightboxCaption.textContent = badge.textContent.trim();
