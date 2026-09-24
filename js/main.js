@@ -3,6 +3,12 @@
  * Vanilla, zero-dependency, accessible, clean agency script.
  */
 
+// Suppress automatic browser "Install app / Add to Home screen" banner on mobile
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  return false;
+});
+
 document.addEventListener('DOMContentLoaded', () => {
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
